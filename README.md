@@ -59,18 +59,6 @@ Each model is evaluated using:
 
 ---
 
-## 🚀 How to Run
-
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the notebook
-jupyter notebook mask_detection_notebook.ipynb
-```
-
----
-
 ## 📌 Requirements
 
 - TensorFlow / Keras
@@ -92,5 +80,3 @@ jupyter notebook mask_detection_notebook.ipynb
 ## 🙌 Credits
 
 Dataset: [Kaggle - Face Mask Detection](https://www.kaggle.com/datasets)
-
-Developed as part of a computer vision mini-project.
