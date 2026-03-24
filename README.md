@@ -1,11 +1,11 @@
 
-# 😷 Face Mask Detection with Deep Learning
+# Face Mask Detection with Deep Learning
 
 This project is a deep learning-based image classification system that detects whether a person is wearing a face mask or not. The implementation includes both a **custom Convolutional Neural Network (CNN)** and a **Transfer Learning approach using MobileNetV2**.
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 The dataset is obtained from Kaggle and consists of two classes:
 - `with_mask`
@@ -15,7 +15,7 @@ It is loaded using `opendatasets` and split into training and validation sets.
 
 ---
 
-## 🧠 Model Architectures
+## Model Architectures
 
 ### 1. Custom CNN
 - Built from scratch using Conv2D, MaxPooling, Dropout, and Dense layers
@@ -28,7 +28,7 @@ It is loaded using `opendatasets` and split into training and validation sets.
 
 ---
 
-## 🔁 Data Augmentation
+## Data Augmentation
 
 Data augmentation is applied to improve model generalization:
 - Rotation
@@ -41,7 +41,7 @@ A sample of augmented images is visualized.
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 Each model is evaluated using:
 - Accuracy/Loss plots
@@ -50,7 +50,7 @@ Each model is evaluated using:
 
 ---
 
-## ✅ Results Summary
+## Results Summary
 
 | Model        | Accuracy | Comments                    |
 |--------------|----------|-----------------------------|
@@ -59,7 +59,7 @@ Each model is evaluated using:
 
 ---
 
-## 📌 Requirements
+## Requirements
 
 - TensorFlow / Keras
 - Matplotlib
@@ -69,7 +69,7 @@ Each model is evaluated using:
 
 ---
 
-## 📬 Future Work
+## Future Work
 
 - Convert to real-time webcam detector using OpenCV
 - Deploy with Streamlit/Gradio
@@ -77,6 +77,6 @@ Each model is evaluated using:
 
 ---
 
-## 🙌 Credits
+## Credits
 
 Dataset: [Kaggle - Face Mask Detection](https://www.kaggle.com/datasets)
